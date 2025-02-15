@@ -1,9 +1,11 @@
-import Image from "next/image";
+import FilterComponent from "@/components/FilterComponent";
+
+
 
 export default function Home() {
   return (
-   <div>
-    
+   <div className="md:px-20 px-10">
+    <FilterComponent />
    </div>
   );
 }
